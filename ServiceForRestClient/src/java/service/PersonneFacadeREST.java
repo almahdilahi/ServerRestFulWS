@@ -19,10 +19,6 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import model.Personne;
 
-/**
- *
- * @author jams9
- */
 @Stateless
 @Path("model.personne")
 public class PersonneFacadeREST extends AbstractFacade<Personne> {

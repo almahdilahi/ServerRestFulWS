@@ -19,10 +19,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- *
- * @author jams9
- */
+
 @Entity
 @Table(name = "personne")
 @XmlRootElement

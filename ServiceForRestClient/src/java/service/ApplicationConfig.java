@@ -8,10 +8,6 @@ package service;
 import java.util.Set;
 import javax.ws.rs.core.Application;
 
-/**
- *
- * @author jams9
- */
 @javax.ws.rs.ApplicationPath("webresources")
 public class ApplicationConfig extends Application {
 

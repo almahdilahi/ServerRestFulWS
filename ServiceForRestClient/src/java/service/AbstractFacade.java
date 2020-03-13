@@ -8,10 +8,7 @@ package service;
 import java.util.List;
 import javax.persistence.EntityManager;
 
-/**
- *
- * @author jams9
- */
+
 public abstract class AbstractFacade<T> {
     private Class<T> entityClass;
 
